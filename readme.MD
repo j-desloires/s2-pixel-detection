@@ -15,7 +15,7 @@ To install the package, you must first clone the git repository to the desired f
 
 
 ```bash
-git clone git@github.com:j-desloires/cloud-mask.git
+git clone git@github.com:j-desloires/s2-pixel-detector.git
 ```
 
 Then, open Anaconda prompt and create the environment from environment.yml
