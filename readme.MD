@@ -8,6 +8,8 @@
 The objective of the *cloud-mask* library is to process and run ML algorithms at the pixel level. It is based on the only publicly available dataset of manually labelled Sentinel-2 scenes for cloud masks.
 It gathers 97 tiles with more than 5 million manually labelled pixels, curated by [Hollstein et al](https://www.mdpi.com/2072-4292/8/8/666). The database is provided by **EnMAP** and available on the gitlab repository [Database File of Manually classified Sentinel-2A Data](https://git.gfz-potsdam.de/EnMAP/sentinel2_manual_classification_clouds).
 
+*A report summarizing the findings and results is available [here](/doc/report_s2_manual_classification.pdf).*
+
 # Installation
 
 To install the package, you must first clone the git repository to the desired folder
@@ -70,4 +72,3 @@ The scripts are organized to run all the experiments as follows:
 
 
 Then you can test the [scripts](/examples/scripts) by changing the *root_path* to where the repo is saved locally.
-A report summarizing the findings and results is available [here](/doc/report_s2_manual_classification.pdf).
