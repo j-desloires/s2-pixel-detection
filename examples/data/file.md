@@ -1,0 +1,2 @@
+Download one of the files available on this  [link](https://git.gfz-potsdam.de/EnMAP/sentinel2_manual_classification_clouds) in this folder to run the examples.
+The analysis has been made on *20160914_s2_manual_classification_data.h5*.
