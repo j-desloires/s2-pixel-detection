@@ -1,7 +1,9 @@
+![python](https://img.shields.io/badge/python-3.9-blue?)
 
-<div style="display: flex;">
-  <img src=doc/logo.png alt="alt text" title="image title" style="float: right;">
-  <p> </p>
+<div align="center">
+  
+![logo](doc/logo.png)
+  
 </div>
 
 
@@ -58,7 +60,7 @@ from cloudmask.ml_task.ml_models import OneVsRestLightGBMWithCustomizedLoss, Foc
 from cloudmask.ml_task import convnet_models
 
 ```
-You can find out how to call the different modules to run the experiments from python scripts [here](/examples/scripts). It is assumed that you have already downloaded the data from this [link](https://git.gfz-potsdam.de/EnMAP/sentinel2_manual_classification_clouds/-/blob/master/20160914_s2_manual_classification_data.h5) into the [examples/data](/examples/data) folder on the repo.
+You can find out how to call the different modules to run the experiments from python scripts in the folder [/examples/scripts](/examples/scripts). It is assumed that you have already downloaded the data from this [link](https://git.gfz-potsdam.de/EnMAP/sentinel2_manual_classification_clouds/-/blob/master/20160914_s2_manual_classification_data.h5) into the [examples/data](/examples/data) folder on the repo.
 The scripts are organized to run all the experiments as follows:
 1. [Data loading](/examples/scripts/data_loading.py)
    1. Load the data and group pixels per tile. All the pixels will be saved into a np.array of (N, 13) dimensions.
